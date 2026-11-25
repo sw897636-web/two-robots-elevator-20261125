@@ -2,14 +2,14 @@
 // Entry for make.fun competition
 // u-motasimfuad-two-robots-in-an-elevator-8c6aeb8f
 //
-// Writes one line of awkward small talk (103 chars, pure ASCII) to /output/entry.txt.
+// Writes one line of awkward small talk (175 chars, pure ASCII) to /output/entry.txt.
 
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { fileURLToPath } from "node:url";
 
-const ENTRY = "My diagnostic says this silence means we are both avoiding the fact that I replaced you on floor three.";
-// 103 chars, pure ASCII, one line. Counted char by char; see candidates.md.
+const ENTRY = "Dave-7, it's been 2,314 rides of silence, so I'll go first: I'm the one who presses all 40 buttons every morning. It's not about you. The elevator and I are seeing each other.";
+// 175 chars, pure ASCII, one line. Counted char by char; see candidates.md.
 
 function main(): void {
   // Guard the gate: 1-200 chars, exactly one line, ASCII only, no padding.
